@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="hotel.cyut.im.o_lock.Search1">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="63dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="204dp"
+        android:text="入住日期"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="76dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="204dp"
+        android:text="退房日期"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="168dp" />
+
+    <TextView
+        android:id="@+id/o_in2"
+        android:layout_width="119dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape"
+        android:gravity="center_vertical|center"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="228dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/shejiyeiconmyur3m425xo"
+        app:layout_constraintEnd_toStartOf="@+id/o_out2"
+        app:layout_constraintStart_toEndOf="@+id/o_in2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/o_out2"
+        android:layout_width="119dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape"
+        android:gravity="center_vertical|center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/o_in2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toTopOf="@+id/o_in2"
+        android:layout_marginRight="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="搜   尋"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.692" />
+</android.support.constraint.ConstraintLayout>

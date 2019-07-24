@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">O-Lock</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">問題回報</string>
+    <string name="phone">行動電話</string>
+    <string name="pass">建立密碼</string>
+    <string name="pass1">確認密碼</string>
+    <string name="email">電子郵件</string>
+    <string name="name">名稱</string>
+    <string name="todo2">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="sign">Sign Up</string>
+    <string name="textview">TextView</string>
+    <string name="user">會員資料</string>
+    <string name="key">訂房資訊</string>
+    <string name="qrcode">開鎖房門</string>
+    <string name="title_activity_hotle">O-Lock</string>
+    <string name="nav_header_title">O!LOCK</string>
+    <string name="nav_header_subtitle">olock@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_user">會員中心</string>
+    <string name="nav_hotel">訂房</string>
+    <string name="nav_user">會員資料</string>
+    <string name="nav_key">開鎖房門</string>
+    <string name="nav_manage">問題回報</string>
+    <string name="nav_logout">登出</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_question">問題回報</string>
+
+</resources>
